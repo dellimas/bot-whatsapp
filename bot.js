@@ -1,4 +1,4 @@
-
+// Bot WhatsApp - Deploy 31/10
 const { default: makeWASocket, DisconnectReason, useMultiFileAuthState } = require('@whiskeysockets/baileys');
 const qrcode = require('qrcode-terminal');
 
