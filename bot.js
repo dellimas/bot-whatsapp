@@ -1,6 +1,6 @@
-// Bot WhatsApp SIMPLES - Versão Funcional
-import { makeWASocket, useMultiFileAuthState } from '@whiskeysockets/baileys';
-import qrcode from 'qrcode-terminal';
+// Bot WhatsApp - CommonJS (FUNCIONA!)
+const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
+const qrcode = require('qrcode-terminal');
 
 // Configuração
 const CONFIG = {
